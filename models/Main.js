@@ -18,12 +18,6 @@ const userSchema = new mongoose.Schema({
     }, 
     password: {
         type: String
-    }, 
-    products: {
-        type: String
-    },
-    cart:{
-        type: Number
     }
 });
 

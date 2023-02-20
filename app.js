@@ -5,7 +5,6 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const ejs = require('ejs');
 const mongoose = require('mongoose');
-const Router = require('./routes/server')
 const bcrypt = require('bcrypt');
 const session = require("express-session");
 const User = require("./models/Main");
